@@ -18,29 +18,29 @@
       "merk_kendaraan": "Honda Vario",
       "tahun_pembuatan": 2019,
       "kapasitas": 150,
-      "warna": "Hitam",
+      "warna": "Biru",
       "bahan_bakar": "Bensin",
       "id": 2
     },
     {
-      "no_registrasi": "D-123-PX",
+      "no_registrasi": "D-123-PXX",
       "nama_pemilik": "Bambang Pamungkas",
       "alamat": "jl.melati no 79 Jakarta",
       "merk_kendaraan": "Beat",
       "tahun_pembuatan": "2020",
       "kapasitas": "125",
-      "warna": "biru",
+      "warna": "Abu-Abu",
       "bahan_bakar": "bensin",
       "id": 3
     },
     {
       "no_registrasi": "B-7829-TYP",
       "nama_pemilik": "Entis Siti Jubaedah",
-      "alamat": "",
+      "alamat": "Jl. Rejodadi",
       "merk_kendaraan": "Beat",
       "tahun_pembuatan": "2019",
       "kapasitas": "125",
-      "warna": "Kuning",
+      "warna": "Hitam",
       "bahan_bakar": "Bensin",
       "id": 4
     },
@@ -54,6 +54,17 @@
       "warna": "Hitam",
       "bahan_bakar": "Bensin",
       "id": 8
+    },
+    {
+      "no_registrasi": "F-1234-XZ",
+      "nama_pemilik": "Mbape",
+      "alamat": "Jl. letkol wisnu",
+      "merk_kendaraan": "Supra",
+      "tahun_pembuatan": "2019",
+      "kapasitas": "150",
+      "warna": "Biru",
+      "bahan_bakar": "Pertamax",
+      "id": 9
     }
   ]
 }

@@ -49,7 +49,6 @@ const Home = () => {
         setSearch({ ...search, [name]: value });
     }
 
-
     const handleEditData = (e) => {
         const ID = parseInt(e.target.value)
         axios.get(`/kendaraan/${ID}`)
@@ -106,7 +105,6 @@ const Home = () => {
                         >Search</button>
                     </form>
                 </div>
-
                 <div>
                     <Link to='/create' className='btn'>Add Data</Link>
                 </div>

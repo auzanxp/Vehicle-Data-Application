@@ -139,6 +139,7 @@ const CreateData = () => {
                                 value={input.merk_kendaraan}
                                 onChange={handleInput}
                                 readOnly={location === `/detail/${Id}`}
+                                required
                             />
                             <label>Alamat Pemilik Kendaraan</label>
                             <textarea
@@ -149,6 +150,7 @@ const CreateData = () => {
                                 value={input.alamat}
                                 onChange={handleInput}
                                 readOnly={location === `/detail/${Id}`}
+                                required
                             />
                         </div>
                         <div>
@@ -160,6 +162,7 @@ const CreateData = () => {
                                 value={input.tahun_pembuatan}
                                 onChange={handleInput}
                                 readOnly={location === `/detail/${Id}`}
+                                required
                             />
                             <label>Kapasitas Silinder</label>
                             <input
@@ -168,15 +171,21 @@ const CreateData = () => {
                                 value={input.kapasitas}
                                 onChange={handleInput}
                                 readOnly={location === `/detail/${Id}`}
+                                required
                             />
                             <label>Warna Kendaraan</label>
-                            <input
-                                type='text'
+                            <select
                                 name='warna'
                                 value={input.warna}
                                 onChange={handleInput}
-                                readOnly={location === `/detail/${Id}`}
-                            />
+                                disabled={location === `/detail/${Id}`}
+                                required>
+                                <option value='' disabled>Pilih Warna</option>
+                                <option name='warna' value="Merah">Merah</option>
+                                <option name='warna' value="Hitam">Hitam</option>
+                                <option name='warna' value="Biru">Biru</option>
+                                <option name='warna' value="Abu-Abu">Abu-Abu</option>
+                            </select>
                             <label>Bahan Bakar</label>
                             <input
                                 type='text'
@@ -184,6 +193,7 @@ const CreateData = () => {
                                 value={input.bahan_bakar}
                                 onChange={handleInput}
                                 readOnly={location === `/detail/${Id}`}
+                                required
                             />
                         </div>
                     </div>
