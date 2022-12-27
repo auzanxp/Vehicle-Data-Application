@@ -1,0 +1,59 @@
+{
+  "kendaraan": [
+    {
+      "no_registrasi": "B-7763-AAA",
+      "nama_pemilik": "Lionel Messi",
+      "alamat": "Kp. Jagakarsa kelurahan Marga Luyu 12876",
+      "merk_kendaraan": "Honda PCX",
+      "tahun_pembuatan": 2018,
+      "kapasitas": 150,
+      "warna": "Merah",
+      "bahan_bakar": "Bensin",
+      "id": 1
+    },
+    {
+      "no_registrasi": "B-9963-TXY",
+      "nama_pemilik": "CR7",
+      "alamat": "New York City",
+      "merk_kendaraan": "Honda Vario",
+      "tahun_pembuatan": 2019,
+      "kapasitas": 150,
+      "warna": "Hitam",
+      "bahan_bakar": "Bensin",
+      "id": 2
+    },
+    {
+      "no_registrasi": "D-123-PX",
+      "nama_pemilik": "Bambang Pamungkas",
+      "alamat": "jl.melati no 79 Jakarta",
+      "merk_kendaraan": "Beat",
+      "tahun_pembuatan": "2020",
+      "kapasitas": "125",
+      "warna": "biru",
+      "bahan_bakar": "bensin",
+      "id": 3
+    },
+    {
+      "no_registrasi": "B-7829-TYP",
+      "nama_pemilik": "Entis Siti Jubaedah",
+      "alamat": "",
+      "merk_kendaraan": "Beat",
+      "tahun_pembuatan": "2019",
+      "kapasitas": "125",
+      "warna": "Kuning",
+      "bahan_bakar": "Bensin",
+      "id": 4
+    },
+    {
+      "no_registrasi": "B-3110-BGT",
+      "nama_pemilik": "Natasha Wilona",
+      "alamat": "jl. palagan Yogjakarta 12098",
+      "merk_kendaraan": "Honda Scoopy",
+      "tahun_pembuatan": "2022",
+      "kapasitas": "125",
+      "warna": "Hitam",
+      "bahan_bakar": "Bensin",
+      "id": 8
+    }
+  ]
+}
